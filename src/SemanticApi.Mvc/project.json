@@ -2,7 +2,7 @@
     "title": "Semantic API MVC",
     "description": "Semantic API MVC provides helper methods that make it easier to implement Semantic API in ASP.NET Core MVC 1.0",
     "copyright": "Copyright Matt VanNuys 2016",
-    "version": "0.0.1-alpha01",
+    "version": "0.0.1-alpha02",
     "authors": ["Matt VanNuys"],
     "packOptions": {
         "licenseUrl": "https://raw.githubusercontent.com/vannuysm/SemanticApi/master/LICENSE",
