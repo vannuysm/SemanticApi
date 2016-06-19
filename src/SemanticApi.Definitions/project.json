@@ -1,15 +1,28 @@
 {
-    "version": "0.0.1-alpha-*",
+    "title": "Semantic API Definitions",
+    "description": "Semantic API provides a number of interfaces and helpers to make creating a self-describing API easier.",
+    "copyright": "Copyright Matt VanNuys 2016",
+    "version": "0.0.1-alpha01",
     "authors": ["Matt VanNuys"],
-
-    "dependencies": {
-        "Microsoft.NETCore.App": {
-            "type": "platform",
-            "version": "1.0.0-*"
+    "packOptions": {
+        "licenseUrl": "https://raw.githubusercontent.com/vannuysm/SemanticApi/master/LICENSE",
+        "projectUrl": "https://github.com/vannuysm/SemanticApi",
+        "repository": {
+            "type": "git",
+            "url": "git://github.com/vannuysm/SemanticApi"
         }
     },
 
+    "dependencies": {
+        "NETStandard.Library": "1.0.0-rc3-23720"
+    },
+
     "frameworks": {
-        "netstandard1.5": {}
+        "netstandard1.3": {
+            "imports": [
+               "dnxcore50",
+               "portable-net45+win8"
+           ]
+        }
     }
 }
